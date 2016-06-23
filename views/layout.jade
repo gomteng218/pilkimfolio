@@ -1,0 +1,314 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='Pil H Kim', content='')
+    title Pil H Kim - Web Developer
+    link(rel='shortcut icon', type='image/x-icon', href='favicon.ico')
+    link(href='css/style.css', type='text/css', rel='stylesheet')
+    link(href='css/bootstrap.min.css', type='text/css', rel='stylesheet')
+    link(href='css/animate.css', type='text/css', rel='stylesheet')
+    link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css', type='text/css', rel='stylesheet')
+  body
+    .main.text-center
+      .container
+        .row
+          // Brand
+          h1#brand
+            a#brand-a(href='#')
+              span#title-1 P
+              span#title-2 I
+              span#title-3 L
+              span#title-4 R
+              span#title-5 Y
+              span#title-6 a
+              span#title-7 N
+              span#title-8 k
+              span#title-9 I
+              span#title-10 m
+          // About Me
+          h2#mone
+            a#mone-a(href='#about-page', data-toggle='modal')
+              span#mone-1 A
+              span#mone-2 b
+              span#mone-3 O
+              span#mone-4 U
+              span#mone-5 t
+              span#mone-6 M
+              span#mone-7 e
+          // My Work
+          h2#mtwo
+            a#mtwo-a(href='#portfolio-page', data-toggle='modal')
+              span#mtwo-1 M
+              span#mtwo-2 Y
+              span#mtwo-3 w
+              span#mtwo-4 O
+              span#mtwo-5 R
+              span#mtwo-6 K
+          // Contact Me
+          h2#mthree
+            a#mthree-a(href='#contact-page', data-toggle='modal')
+              span#mthree-1 C
+              span#mthree-2 O
+              span#mthree-3 N
+              span#mthree-4 T
+              span#mthree-5 A
+              span#mthree-6 C
+              span#mthree-7 T
+          // Photography
+          h2#mfour
+            a#mfour-a(href='http://pilheon.xyz', target='_blank')
+              span#mfour-1 P
+              span#mfour-2 H
+              span#mfour-3 O
+              span#mfour-4 t
+              span#mfour-5 O
+              span#mfour-6 G
+              span#mfour-7 R
+              span#mfour-8 a
+              span#mfour-9 p
+              span#mfour-10 H
+              span#mfour-11 Y
+          // Linkedin
+          h2#mfive
+            a#mfive-a(href='https://www.linkedin.com/in/pil-heon-ryan-kim-5b16b8b2', target='_blank')
+              span#mfive-1 L
+              span#mfive-2 I
+              span#mfive-3 n
+              span#mfive-4 k
+              span#mfive-5 e
+              span#mfive-6 D
+              span#mfive-7 i
+              span#mfive-8 N
+          // Github
+          h2#msix
+            a#msix-a(href='http://github.com/gomteng218', target='_blank')
+              span#msix-1 G
+              span#msix-2 i
+              span#msix-3 t
+              span#msix-4 h
+              span#msix-5 u
+              span#msix-6 B
+          // Codepen
+          h2#mseven
+            a#mseven-a(href='http://codepen.io/gomteng218/pens/popular/', target='_blank')
+              span#mseven-1 C
+              span#mseven-2 O
+              span#mseven-3 D
+              span#mseven-4 e
+              span#mseven-5 P
+              span#mseven-6 e
+              span#mseven-7 N
+          //
+            Instagram
+            <h2 id="meight"><a href="http://instagram.com/tortoisia" target="_blank" id="meight-a"><span id="meight-1">I</span><span id="meight-2">n</span><span id="meight-3">s</span><span id="meight-4">T</span><span id="meight-5">a</span><span id="meight-6">G</span><span id="meight-7">R</span><span id="meight-8">A</span><span id="meight-9">m</span></a></h2>
+          //
+            Skillset
+            <h2 id="mnine"><a href="#" id="mnine-a"><span id="mnine-1">s</span><span id="mnine-2">K</span><span id="mnine-3">i</span><span id="mnine-4">L</span><span id="mnine-5">L</span><span id="mnine-6">S</span><span id="mnine-7">e</span><span id="mnine-8">T</span></a></h2>
+          // Copyright
+          h2#mten
+            span#mten-1 p
+            span#mten-2 i
+            span#mten-3 L
+            span#mten-8 k
+            span#mten-9 i
+            span#mten-10 M
+            span#mten-11 ©
+            span#mten-12 2
+            span#mten-13 0
+            span#mten-14 1
+            span#mten-15 6
+    // About
+    #about-page.section-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .one
+            .two
+        .container
+          .row
+            .section-title.text-center
+              h1.title Pil Ryan Kim
+              h3 Front End Developer
+              hr
+          .row
+            .col-md-12
+              .pic-section.text-center
+                img#profilepic(src='https://s3-us-west-1.amazonaws.com/pilheon.xyz/photo/redrockme2.jpg')
+              .about-text
+                p
+                  | Hello, my name is Pil. I started working on the web using Wordpress to create a fully functional website without any knowledge of complex languages. Interest in the web development soon motivated me to learn essential Front End languages such as HTML, CSS, and Javascript. Since then, I have been developing creative and easy-to-use but useful web applications and pages. Not only that I am well versed in Front End technologies, but I have been working with Back End technologies using Node.js and its frameworks, eager to master relevant languages to become a skillful Full Stack Developer. 
+                  br
+                  br
+                  |                             When I am not working on projects, I bet you will find me either tweaking with Raspberry Pi to develop my own private cloud, hiking natural wonders of the Southwest, watching European football (soccer to many), or anything else I find interesting.
+                  br
+                  br
+                  |                             I also have extensive experience and high interest in video editing with voiceover, photo editing, and working for local charities and non-profit organizations for a good cause. If you have a project idea in mind, shoot me a message and I will try to get back to you as soon as possible.
+    #contact-page.section-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .one
+            .two
+        .container
+          .row
+            .section-title.text-center
+              h1.title Contact Me
+              hr
+          .row.contact-section
+            .col-md-12
+              form#contactForm(name='sentMessage', method='post', action='/send')
+                .row
+                  .col-md-6
+                    .form-group
+                      input#name.form-control(type='text', name="name", placeholder='Enter Your Name', required='', data-validation-required-message='Please enter your name!')
+                      p.help-block.text-danger
+                    .form-group
+                      input#email.form-control(type='email', name="email", placeholder='Enter Your Email', required='', data-validation-required-message='Please enter your email address!')
+                      p.help-block.text-danger
+                    .form-group
+                      input#phone.form-control(type='tel', name="phone", placeholder='Enter Your Phone Number', required='', data-validation-required-message='Please enter your phone number!')
+                      p.help-block.text-danger
+                  .col-md-6
+                    .form-group
+                      textarea#message.form-control(placeholder='Your Message', name="message", required='', data-validation-required-message='Please enter your message!')
+                      p.help-block.text-danger
+                  .clearfix
+                  .col-lg-12.text-center
+                    #success
+                    button.btn.btn-info(type='submit') Send Message
+    #portfolio-page.section-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .one
+            .two
+        .container
+          .row
+            .section-title.text-center
+              h1.title Portfolio
+              hr
+          .row.portfolio-section
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/kbbq.jpg', alt='Landscape Photography')
+                .portfolio-details.text-center
+                  h4 KBBQ.SPACE - Node.js Mongo
+                  a(href='https://damp-wildwood-88281.herokuapp.com/', target='_blank')
+                    i.fa.fa-link
+                  a(href='http://kbbq.space', target='_blank')
+                    i.fa.fa-link
+                  a(href='https://github.com/gomteng218/kbbq.space', target='_blank')
+                    i.fa.fa-github
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/blogapp.jpg', alt='Node Blog App')
+                .portfolio-details.text-center
+                  h4 Simple Node Blog App with Authentication
+                  a(href='http://pilryankim.xyz', target='_blank')
+                    i.fa.fa-link
+                  a(href='https://github.com/gomteng218/blog_app', target='_blank')
+                    i.fa.fa-github
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/pilphoto.jpg', alt='Javascript Calculator')
+                .portfolio-details.text-center
+                  h4 Landscape Photography Collection
+                  a(href='http://pilheon.xyz', target='_blank')
+                    i.fa.fa-link
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/osha.jpg', alt='OSHA 10 Card')
+                .portfolio-details.text-center
+                  h4 OSHA 10 Card Las Vegas
+                  a(href='http://www.osha10card.com', target='_blank')
+                    i.fa.fa-link
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/f2.jpg', alt='F-2 Visa')
+                .portfolio-details.text-center
+                  h4 F-2 Visa Website
+                  a(href='http://www.f2visa.com', target='_blank')
+                    i.fa.fa-link
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/weather.jpg', alt='Weather App')
+                .portfolio-details.text-center
+                  h4 OpenWeatherApp API Weather App
+                  a(href='http://codepen.io/gomteng218/full/KzGJdv/', target='_blank')
+                    i.fa.fa-codepen
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/wikiview.jpg', alt='Wikipedia Viewer')
+                .portfolio-details.text-center
+                  h4 Wikipedia Viewer
+                  a(href='http://codepen.io/gomteng218/full/GZwXYL/', target='_blank')
+                    i.fa.fa-codepen
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/simon.jpg', alt='Simon Game')
+                .portfolio-details.text-center
+                  h4 Simon Game
+                  a(href='http://codepen.io/gomteng218/full/yJYaXr/', target='_blank')
+                    i.fa.fa-codepen
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/calc.jpg', alt='TwitchTV JSON App')
+                .portfolio-details.text-center
+                  h4 Javascript Calculator
+                  a(href='http://codepen.io/gomteng218/full/aNxxGo/', target='_blank')
+                    i.fa.fa-codepen
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/pomodoro.jpg', alt='...')
+                .portfolio-details.text-center
+                  h4 Pomodoro Timer
+                  a(href='http://codepen.io/gomteng218/full/wWawmM/', target='_blank')
+                    i.fa.fa-codepen
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/hexgame.jpg', alt='Roman Numeral Converter')
+                .portfolio-details.text-center
+                  h4 HEX Guess Game
+                  a(href='http://codepen.io/gomteng218/full/yOWOwY/', target='_blank')
+                    i.fa.fa-codepen
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/rgbgame.jpg', alt='The Godfather Quote Generator')
+                .portfolio-details.text-center
+                  h4 RGB Color Game
+                  a(href='http://codepen.io/gomteng218/full/LNvoyy/', target='_blank')
+                    i.fa.fa-codepen
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/tictactoe.jpg', alt='RGB Color Game')
+                .portfolio-details.text-center
+                  h4 Tic Tac Toe
+                  a(href='http://codepen.io/gomteng218/full/dMrOoJ/', target='_blank')
+                    i.fa.fa-codepen
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/roman.jpg', alt='...')
+                .portfolio-details.text-center
+                  h4 Roman Numeral Converter
+                  a(href='http://codepen.io/gomteng218/full/WwLjMR/', target='_blank')
+                    i.fa.fa-codepen
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/twitch.jpg', alt='...')
+                .portfolio-details.text-center
+                  h4 TwitchTV JSON App
+                  a(href='http://codepen.io/gomteng218/full/yOZZRb/', target='_blank')
+                    i.fa.fa-codepen
+            .col-md-4
+              .portfolio-item
+                img.img-responsive(src='image/godfather.jpg', alt='...')
+                .portfolio-details.text-center
+                  h4 The Godfather Quote Generator
+                  a(href='http://codepen.io/gomteng218/full/jqKGrX/', target='_blank')
+                    i.fa.fa-codepen
+    script(src='js/jquery-1.12.4.min.js')
+    script(src='js/bootstrap.min.js')
+    script(src='js/jqBootstrapValidation.js')
+    script(src='js/jquery.appear.js')
+    script(src='js/site.js')

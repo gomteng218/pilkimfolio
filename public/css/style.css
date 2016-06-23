@@ -1,0 +1,855 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:900|Fauna+One|Vast+Shadow|Unica+One|Megrim|Philosopher:700|Old+Standard+TT:700|Open+Sans:700,800|Ovo|Oswald:700|Fugaz+One|Quattrocento:700|PT+Sans+Narrow|Montserrat|Quicksand|Righteous|Quando|Playfair+Display:400,900|Stint+Ultra+Expanded|Alfa+Slab+One|Volkhov:700|Ubuntu:700|Questrial);
+
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+a, a:link, a:hover, a:active, a:visited, a:focus:active {
+    text-decoration: none !important;
+    outline: 0  !important;    
+}
+
+p {
+    font-size: 1.3em;
+}
+
+
+.title {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: "Questrial", "Helvetica";
+    letter-spacing: 5px;
+    margin: 20px auto;
+}
+
+hr {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+i {
+    margin: 0 2px;
+}
+
+/********************    Main Brand    ***********************/
+
+
+
+#brand {
+    position: relative;
+    margin: 8% auto 0;
+    letter-spacing: 1.5px;
+    animation: bounceInDown;
+    -webkit-animation: bounceInDown;
+    animation-duration: 3000ms;
+    -webkit-animation-duration: 3000ms;
+}
+
+
+#title-1 {
+    font-family: "Vast Shadow", cursive;
+    font-size: 55px;
+    color: #7a60f5;
+}
+
+#title-2 {
+    font-family: 'Volkhov', serif;
+    font-size: 35px;
+    color: #777;
+}
+
+#title-3 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 45px;
+    color: #d716b6;
+}
+
+#title-4 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 42px;
+    color: #588707;
+}
+
+#title-5 {
+    font-family: 'Montserrat', serif;
+    font-size: 35px;
+    color: #a4a2d0;
+}
+
+#title-6 {
+    font-family: 'Fugaz One', cursive;
+    font-size: 50px;
+    color: #cfce38;
+}
+
+#title-7 {
+    font-family: 'Fauna One', serif;
+    font-size: 46px;
+    color: #e15444;
+}
+
+#title-8 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    color: #5999cd;
+}
+
+#title-9 {
+    font-family: 'Volkhov', serif;
+    font-size: 37px;
+    color: #bcb9fc;
+}
+
+#title-10 {
+    font-family: 'Ovo', serif;
+    font-size: 55px;
+    color: #f761ea;
+}
+
+
+/********************    About Me    ***********************/
+
+#mone {
+    position: relative;
+    transform: translate(30px, -40px);
+}
+
+
+#mone-1 {
+    font-family: 'Ubuntu', serif;
+    font-size: 51px;
+    color: #d783cf;
+}
+
+#mone-2 {
+    font-family: 'Fauna One', serif;
+    font-size: 60px;
+    color: #efa514;
+}
+
+#mone-3 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 50px;
+    color: #b93856;
+}
+
+#mone-4 {
+    font-family: 'Righteous', cursive;
+    font-size: 53px;
+    color: #b0dc71;
+}
+
+#mone-5 {
+    font-family: 'Montserrat', cursive;
+    font-size: 60px;
+    color: #f38706;
+}
+
+#mone-6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    color: #06a5ec;
+}
+
+#mone-7 {
+    font-family: 'Vast Shadow', cursive;
+    font-size: 55px;
+    color: #d783cf;
+}
+
+
+
+/********************    My Work    ***********************/
+
+
+#mtwo {
+    position: relative;
+    transform: translate(-30px, -79px);
+    letter-spacing: 4px;
+}
+
+#mtwo-1 {
+    font-family: 'PT Sans Narrow', cursive;
+    font-size: 50px;
+    color: #b61703;
+    
+}
+
+#mtwo-2 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 56px;
+    color: #a33c85;
+}
+
+#mtwo-3 {
+    font-family: 'Quando', cursive;
+    font-size: 60px;
+    color: #efa514;
+}
+
+#mtwo-4 {
+    font-family: 'Quattrocento', serif;
+    font-size: 52px;
+    color: #a33c85;
+    background-color: aquamarine;
+}
+
+#mtwo-5 {
+    font-family: 'Vast Shadow', cursive;
+    font-size: 55px;
+    color: #f96551;
+}
+
+#mtwo-6 {
+    font-family: 'Volkhov', serif;
+    font-size: 45px;
+    color: #9ed185;
+}
+
+/********************    Contact Me    ***********************/
+
+#mthree {
+    position: relative;
+    transform: translate(55px, 50px);
+}
+
+#mthree-1 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 46px;
+    color: #17b509;
+}
+
+#mthree-2 {
+    font-family: 'Quattrocento', serif;
+    font-size: 39px;
+    color: #f5bc96;
+}
+
+#mthree-3 {
+    font-family: 'Ubuntu', cursive;
+    font-size: 36px;
+    color: #f2b506;
+}
+
+#mthree-4 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 45px;
+    color: #674b73;
+}
+
+#mthree-5 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 40px;
+    color: #227507;
+}
+
+#mthree-6 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 38px;
+    color: #4084e5;
+}
+
+#mthree-7 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 38px;
+    color: #f926be;
+}
+
+/********************    Photography    ***********************/
+
+#mfour {
+    position: relative;
+    transform: rotate(180deg) translate(-50px, 166px);
+    margin: 0;
+    padding: 0;
+}
+
+#mfour-1 {
+    font-family: 'Vast Shadow', cursive;
+    font-size: 40px;
+    color: #66729e;
+}
+
+#mfour-2 {
+    font-family: 'Ovo', serif;
+    font-size: 38px;
+    color: #4c9d7e;
+}
+
+#mfour-3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
+    color: #bd3850;
+}
+
+#mfour-4 {
+    font-family: 'Montserrat', cursive;
+    font-size: 43px;
+    color: #7d99ef;
+}
+
+#mfour-5 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 35x;
+    color: #ec610c;
+}
+
+#mfour-6 {
+    font-family: 'Ubuntu', serif;
+    font-size: 29px;
+    color: #ac4131;
+}
+
+#mfour-7 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 30px;
+    color: #f8d006;
+}
+
+#mfour-8 {
+    font-family: 'Quicksand', serif;
+    font-size: 35px;
+    color: #4ae333;
+}
+
+#mfour-9 {
+    font-family: 'Righteous', serif;
+    font-size: 30px;
+    color: #f182f5;
+}
+
+#mfour-10 {
+    font-family: 'Fauna One', serif;
+    font-size: 33px;
+    color: #706f7f;
+}
+
+#mfour-11 {
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    color: #ff0fb9;
+}
+
+/********************    Linkedin    ***********************/
+
+
+#mfive {
+    position: relative;
+    transform: translate(17px, -98px);
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px;
+}
+
+#mfive-1 {
+    font-family: 'Fauna One', serif;
+    font-size: 47px;
+    color: #8a29bf;
+}
+
+#mfive-2 {
+    font-family: 'Volkhov', serif;
+    font-size: 46px;
+    color: #1c212a;
+}
+
+#mfive-3 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 48px;
+    color: #ad260a;
+}
+
+#mfive-4 {
+    font-family: 'Quando', serif;
+    font-size: 47px;
+    color: #ca770b;
+}
+
+#mfive-5 {
+    font-family: 'Philosopher', serif;
+    font-size: 47px;
+    color: #8e0b24;
+}
+
+#mfive-6 {
+    font-family: 'Ubuntu', serif;
+    font-size: 47px;
+    color: #73a12f;
+}
+
+#mfive-7 {
+    font-family: 'Quattrocento', serif;
+    font-size: 47px;
+    color: #dd3664;
+}
+
+#mfive-8 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 47px;
+    color: #706f7f;
+}
+
+/********************    Github    ***********************/
+
+#msix {
+    position: relative;
+    transform: translate(10px, -203px);
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+}
+
+#msix-1 {
+    font-family: 'Fauna One', serif;
+    font-size: 40px;
+    color: #e22e5f;
+}
+
+#msix-2 {
+    font-family: 'Quando', serif;
+    font-size: 45px;
+    color: #f09c09;
+}
+
+#msix-3 {
+    font-family: 'Ovo', serif;
+    font-size: 50px;
+    color: #4890d8;
+}
+
+#msix-4 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 44px;
+    color: #962954;
+}
+
+#msix-5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #45de68;
+}
+
+#msix-6 {
+    font-family: "Vast Shadow", cursive;
+    font-size: 43px;
+    color: #ec5a1b;
+}
+
+/********************    Codepen    ***********************/
+
+#mseven {
+    position: relative;
+    transform: translate(70px, -300px);
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+#mseven-1 {
+    font-family: 'Ubuntu', serif;
+    font-size: 48px;
+    color: #ec5a1b;
+}
+
+#mseven-2 {
+    font-family: 'Montserrat', cursive;
+    font-size: 43px;
+    color: #12a5f2;
+}
+
+#mseven-3 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 50px;
+    color: #e22e5f;
+}
+
+#mseven-4 {
+    font-family: 'Volkhov', serif;
+    font-size: 43px;
+    color: #a7be40;
+}
+
+#mseven-5 {
+    font-family: 'Quattrocento', serif;
+    font-size: 43px;
+    color: #ec5a1b;
+}
+
+#mseven-6 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #8d6405;
+}
+
+#mseven-7 {
+    font-family: 'Quicksand', serif;
+    font-size: 46px;
+    color: #44da4c;
+}
+
+/********************    Instagram    **********************
+
+#meight {
+    position: relative;
+    transform: rotate(180deg) translate(-13px, 140px);
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.4px;
+    
+}
+
+#meight-1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 33px;
+    color: #2a77cd;
+}
+
+#meight-2 {
+    font-family: 'Quattrocento', serif;
+    font-size: 32px;
+    color: #f09c09;
+}
+
+#meight-3 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 35px;
+    color: #1b6123;
+}
+
+#meight-4 {
+    font-family: 'Ubuntu', cursive;
+    font-size: 30px;
+    color: #e22e5f;
+}
+
+#meight-5 {
+    font-family: 'Fauna One', serif;
+    font-size: 32px;
+    color: #bbb8d7;
+}
+
+#meight-6 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 30px;
+    color: #f1af0d;
+}
+
+#meight-7 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 28px;
+    color: #2d301f;
+}
+
+#meight-8 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 29px;
+    color: #f8809f;
+}
+
+#meight-9 {
+    font-family: 'Vast Shadow', cursive;
+    font-size: 37px;
+    color: #afd008;
+}
+*/
+/********************    Skillset    ***********************
+
+#mnine {
+    position: relative;
+    transform: translate(-5px, -402px);
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+#mnine-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 53px;
+    color: #f8809f;
+}
+
+#mnine-2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 56px;
+    color: #4354c6;
+}
+
+#mnine-3 {
+    font-family: 'Unica One', cursive;
+    font-size: 48px;
+    color: #c5ad6b;
+}
+
+#mnine-4 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 44px;
+    color: #db886c;
+}
+
+#mnine-5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 43px;
+    color: #f8809f;
+}
+
+#mnine-6 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 44px;
+    color: #226f96;
+}
+
+#mnine-7 {
+    font-family: 'Quando', serif;
+    font-size: 49px;
+    color: #e7d73b;
+}
+
+#mnine-8 {
+    font-family: 'Volkhov', serif;
+    font-size: 52px;
+    color: #a0a6ad;
+}
+*/
+
+/******************** Copyright **************************/
+
+#mten {
+    position: relative;
+    transform: translate(-25px, -190px);
+    margin: 0;
+    padding: 0;
+}
+
+#mten-1 {
+    font-family: 'Quattrocento', sans-serif;
+    font-size: 33px;
+    color: #000;
+}
+
+#mten-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: #000;
+}
+
+#mten-3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    color: #000;
+}
+
+#mten-8 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: #000;
+}
+
+#mten-9 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 29px;
+    color: #000;
+}
+
+#mten-10 {
+    font-family: 'Stint Ultra Expanded', sans-serif;
+    font-size: 33px;
+    color: #000;
+}
+
+#mten-11 {
+    font-family: 'Ubuntu';
+    font-size: 25px;
+    color: #000;
+}
+
+#mten-12 {
+    font-family: 'Megrim';
+    font-size: 23px;
+    color: #000;
+}
+
+#mten-13 {
+    font-family: 'Unica One', sans-serif;
+    font-size: 23px;
+    color: #000;
+}
+
+#mten-14 {
+    font-family: 'Megrim';
+    font-size: 23px;
+    color: #000;
+}
+
+#mten-15 {
+    font-family: 'Stint Ultra Expanded', sans-serif;
+    font-size: 23px;
+    color: #000;
+}
+
+/********** Modal Settings **********/
+
+.section-modal {
+    background-color: #fff;
+}
+
+.portfolio-section {
+    margin-top: 35px;
+}
+
+.section-modal .modal-content {
+    padding: 50px 0;
+    height: auto;
+    min-height: 100%;
+    border: 0 !important;
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    color: #888;
+    font-weight: 300;
+}
+
+.section-modal .close-modal {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.section-modal .close-modal:hover {
+    opacity: .2;
+}
+
+.section-modal .close-modal .one {
+    z-index: 998;
+    width: 2px;
+    height: 50px;
+    margin-left: 35px;
+    background-color: #555;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.section-modal .close-modal .one .two {
+    z-index: 999;
+    width: 2px;
+    height: 50px;
+    background-color: #555;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.section-title h3 {
+    font-family: "Questrial", "Helvetica";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/******** About **********/
+
+.pic-section {
+    margin-bottom: 5%;
+}
+.about-text {
+    padding-bottom: 50px;
+}
+.about-text p {
+    color: #666;
+    text-align: justify;
+    line-height: 30px;
+}
+#profilepic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+/******** Portfolio **********/
+
+.works-section {
+    margin-top: 50px;
+}
+
+.portfolio-item {
+    position: relative;
+    margin-bottom: 30px;
+    animation: fadeInDown;
+    -webkit-animation: fadeInDown;
+    animation-duration: 2500ms;
+    -webkit-animation-duration: 2500ms;
+}
+
+.portfolio-item .portfolio-details {
+    background: rgba(25, 25, 25, 0.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    top: 0;
+}
+
+.portfolio-item .portfolio-details h4 {
+    padding-top: 20%;
+    padding-bottom: 10%;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.portfolio-item .portfolio-details a i {
+    font-size: 40px;
+    color: #98ff98;
+    transition: 0.3s;
+}
+
+.portfolio-item .portfolio-details a i:hover {
+    color: #ee9c14;
+}
+
+.portfolio-item:hover .portfolio-details {
+    opacity: 1;
+    animation: rotateIn;
+    -webkit-animation: rotateIn;
+    animation-duration: 700ms;
+    -webkit-animation-duration: 700ms;
+}
+
+
+/***************** Contact Modal ************************/
+
+.contact-section {
+    margin-top: 50px;
+}
+.form-group input {
+    height: 60px;
+    font-size: 20px;
+}
+
+#message {
+    height: 210px;
+    font-size: 20px;
+}
+
+#success {
+    margin-top: 20px;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px !important;
+}
+
+.alert {
+    text-align: center;
+}
